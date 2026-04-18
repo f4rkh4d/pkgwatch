@@ -1,0 +1,19 @@
+name: pkgwatch
+description: see which dart packages in your pubspec are behind pub.dev.
+version: 0.1.0
+repository: https://github.com/f4rkh4d/pkgwatch
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  args: ^2.5.0
+  http: ^1.2.0
+  yaml: ^3.1.2
+  pub_semver: ^2.1.4
+
+dev_dependencies:
+  test: ^1.25.0
+
+executables:
+  pkgwatch: pkgwatch
