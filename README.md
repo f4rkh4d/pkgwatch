@@ -1,8 +1,8 @@
 # pkgwatch
 
-ok so you know how you have a `pubspec.yaml` sitting in your project and every couple weeks you wonder "wait am i on old versions of stuff" — this is that, but as a cli. checks pub.dev for what's latest, tells you which ones are behind and by how much (major / minor / patch).
+ok so you know how you have a `pubspec.yaml` sitting in your project and every couple weeks you wonder "wait am i on old versions of stuff". this is that, but as a cli. checks pub.dev for what's latest, tells you which ones are behind and by how much (major / minor / patch).
 
-nothing fancy. drop-in for ci too — exits non-zero if anything's behind.
+nothing fancy. drop-in for ci too. exits non-zero if anything's behind.
 
 ## install
 
@@ -54,4 +54,4 @@ i kept forgetting to run `dart pub outdated` and `pub outdated` has a lot of out
 
 ## license
 
-mit — farkhad
+mit. farkhad
